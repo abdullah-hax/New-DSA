@@ -1,4 +1,4 @@
-/* #include <stdio.h>
+#include <stdio.h>
 
 int linearSearch(int array[], int n, int key){
     for(int i = 0; i < n; i++){
@@ -29,8 +29,10 @@ int main(){
         printf("not found.\n");
     }
 } 
-*/
 
+
+
+/*  // !if there are duplicate keys
 
 #include <stdio.h>
 
@@ -63,8 +65,8 @@ int main(){
 
     linearSearch(array, n, key);
    
-}
-
+} */
+ 
 
 /* Edge case -> ১। শুরুতেই key পেয়ে গিয়েছ, মাঝখানে শেষ 
              -> ২। শুরুতেই key পেয়ে গিয়েছ, সব শেষে শেষ 
